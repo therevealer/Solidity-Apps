@@ -8,7 +8,7 @@ contract MultiSigWallet {
         uint indexed txIndex,
         address indexed to,
         uint value,
-        bytes data
+        bytes data //allows you to include arbitrary binary data as part of the event.
     );
 
     event confirmTransaction(address indexed owner, uint indexed txIndex);
@@ -17,7 +17,20 @@ contract MultiSigWallet {
 
     // Stores the Owners addresses in an Array
     address [] public owners;
+    // Maps owners addresses to booleans
+    mapping(address => bool) public isOwner;
+    // Declares the number of confirmation
     uint public numConfirmations;
+
+    struct Transaction {
+        address to;
+        uint value;
+        bytes data;
+        bool executed;
+        uint numConfirmations;
+    }
+
+    Transaction[] public transactions;
 }
 
 

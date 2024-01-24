@@ -34,7 +34,7 @@
 				],
 				"name": "deposit",
 				"outputs": [],
-				"stateMutability": "nonpayable",
+				"stateMutability": "payable",
 				"type": "function"
 			},
 			{
@@ -79,11 +79,11 @@
 	},
 	"sources": {
 		"examples/mappings.sol": {
-			"keccak256": "0x658acc28baef4f0c131c909bbe6024dc757813c47c166a379b9001e1e431b4f9",
+			"keccak256": "0xca9561cc2fb22baea41bfef12f2944ef9ea083ef552de02e43c3171dae9ce656",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://fa405a75a40a97965d8209ad8cfa49eae5e4bb084606b8d5e75e50346487e185",
-				"dweb:/ipfs/Qmac6vjPkRmsquGxahwwiyKdEibi6G67An9FEuP5KZofdb"
+				"bzz-raw://b3e28371282f98cae002e239423411a809a7f841319792573c2e354109ecda28",
+				"dweb:/ipfs/QmPxBqvASjYdX258D6QXLTc3ryh8Rs5XSYgxbz6rW4DuMV"
 			]
 		}
 	},

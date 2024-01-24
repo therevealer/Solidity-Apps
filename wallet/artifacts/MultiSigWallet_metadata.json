@@ -125,6 +125,25 @@
 				"type": "event"
 			},
 			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "isOwner",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [],
 				"name": "numConfirmations",
 				"outputs": [
@@ -151,6 +170,45 @@
 						"internalType": "address",
 						"name": "",
 						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "transactions",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "to",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "value",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bytes",
+						"name": "data",
+						"type": "bytes"
+					},
+					{
+						"internalType": "bool",
+						"name": "executed",
+						"type": "bool"
+					},
+					{
+						"internalType": "uint256",
+						"name": "numConfirmations",
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
@@ -185,11 +243,11 @@
 	},
 	"sources": {
 		"wallet/multiSigwallet.sol": {
-			"keccak256": "0x15087ac9f15d920e6d0ea7902eecfb9ccca94f0980b33bc4428bd3a8ff42cbc9",
+			"keccak256": "0x24b2d0c09c4af4ef70dbbabc9125bda6b02f8c5b17c039ec37c264f4adc2f3b2",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://f77a6bf7bc2a57fadcd01a196c8e96637be3749235efdde0fac4f0f8310bb361",
-				"dweb:/ipfs/QmYHAPBT3YcZERneUEPiyuiV7RCB69u3C39ZaXkQhUFD8x"
+				"bzz-raw://da2cab661f6b3a15a19b020f0478bd62667de30cfc0560c831e6776333cae0f3",
+				"dweb:/ipfs/Qma9BHFWkKbXytsJmcVS2sNMvX8NaQuSPCtGzWNVxucq6b"
 			]
 		}
 	},

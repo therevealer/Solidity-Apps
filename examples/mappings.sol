@@ -4,7 +4,7 @@ pragma solidity ^0.8.20;
 contract IntegerMappingExample {
     mapping(address => uint256) public addressToBalance;
 
-    function deposit(uint256 amount) public {
+    function deposit(uint256 amount) external payable  {
         addressToBalance[msg.sender] += amount;
     }
 
