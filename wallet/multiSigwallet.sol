@@ -14,6 +14,10 @@ contract MultiSigWallet {
     event confirmTransaction(address indexed owner, uint indexed txIndex);
     event RevokeTransaction(address indexed owner, uint indexed txIndex);
     event executeTransaction(address indexed sender, uint indexed txIndex);
+
+    // Stores the Owners addresses in an Array
+    address [] public owners;
+    uint public numConfirmations;
 }
 
 

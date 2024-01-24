@@ -123,6 +123,38 @@
 				],
 				"name": "submitTransaction",
 				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "numConfirmations",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "owners",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -153,11 +185,11 @@
 	},
 	"sources": {
 		"wallet/multiSigwallet.sol": {
-			"keccak256": "0x9a10965ab6c11121dce119802294c1383b4877602046d48c29e962fa496392a5",
+			"keccak256": "0x15087ac9f15d920e6d0ea7902eecfb9ccca94f0980b33bc4428bd3a8ff42cbc9",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://3d55b9a518623ea2b03f58f18875e87dfdead9d12739ab2fa77fb62d359d89fc",
-				"dweb:/ipfs/QmPMgH9TiF6GJXBayKLFttNh8TpapBrN5uRkokYrod2Kee"
+				"bzz-raw://f77a6bf7bc2a57fadcd01a196c8e96637be3749235efdde0fac4f0f8310bb361",
+				"dweb:/ipfs/QmYHAPBT3YcZERneUEPiyuiV7RCB69u3C39ZaXkQhUFD8x"
 			]
 		}
 	},
