@@ -6,6 +6,22 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [
+					{
+						"internalType": "address[]",
+						"name": "_owners",
+						"type": "address[]"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_numConfirmations",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
 				"anonymous": false,
 				"inputs": [
 					{
@@ -267,11 +283,11 @@
 	},
 	"sources": {
 		"wallet/multiSigwallet.sol": {
-			"keccak256": "0x81378f85161ba3123b34bc61b60e59ffb3a5eb43159136844b3f16a3194e138e",
+			"keccak256": "0x5e3f668d223fe14ead5979668c5a931cf3e05a50259a3707012199cc32916ff4",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://fd0b53a1fc91453367941b6ff6bebb8092d29eb2b79b88fa016a9b251e09a0ef",
-				"dweb:/ipfs/QmXYd1WocZ7hQYruQgMrs7HvksAGiecmQZcsqeiqmg6NrC"
+				"bzz-raw://cedda578a605d60c5ffc414a50282e47c5ddd5bedcd48a302dcd2aacf55510e0",
+				"dweb:/ipfs/QmNzoscRphozYhk2GhaaEtFuDUzftaCjii43NMRuhwZZTn"
 			]
 		}
 	},
