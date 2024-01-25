@@ -127,6 +127,30 @@
 			{
 				"inputs": [
 					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "isConfirmed",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
 						"internalType": "address",
 						"name": "",
 						"type": "address"
@@ -243,11 +267,11 @@
 	},
 	"sources": {
 		"wallet/multiSigwallet.sol": {
-			"keccak256": "0x24b2d0c09c4af4ef70dbbabc9125bda6b02f8c5b17c039ec37c264f4adc2f3b2",
+			"keccak256": "0x8cf9c221f3ce85a6d0474c41902495bb6085d2f5d4ab78bfa802dc4773bc174b",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://da2cab661f6b3a15a19b020f0478bd62667de30cfc0560c831e6776333cae0f3",
-				"dweb:/ipfs/Qma9BHFWkKbXytsJmcVS2sNMvX8NaQuSPCtGzWNVxucq6b"
+				"bzz-raw://2a04d66c7caf710f49cd32dd9bb5e07ad528c48ba50bd9e7e136dd8830e50367",
+				"dweb:/ipfs/Qmbj15HhH17G5B53nz3bHDmxPW2Y7jCy7vajBuBZL8xgPm"
 			]
 		}
 	},

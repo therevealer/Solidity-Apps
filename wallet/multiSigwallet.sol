@@ -2,6 +2,7 @@
 pragma solidity ^0.8.20;
 
 contract MultiSigWallet {
+    //Events
     event Deposit(address indexed sender, uint amount, uint balance);
     event submitTransaction(
         address indexed owner,
@@ -10,16 +11,14 @@ contract MultiSigWallet {
         uint value,
         bytes data //allows you to include arbitrary binary data as part of the event.
     );
-
+    
     event confirmTransaction(address indexed owner, uint indexed txIndex);
     event RevokeTransaction(address indexed owner, uint indexed txIndex);
     event executeTransaction(address indexed sender, uint indexed txIndex);
 
-    // Stores the Owners addresses in an Array
+    //Data types & Data structures
     address [] public owners;
-    // Maps owners addresses to booleans
     mapping(address => bool) public isOwner;
-    // Declares the number of confirmation
     uint public numConfirmations;
 
     struct Transaction {
@@ -29,8 +28,13 @@ contract MultiSigWallet {
         bool executed;
         uint numConfirmations;
     }
+    // Nested mapping from txIndex to boolean
+    mapping(uint => mapping(address => bool)) public isConfirmed;
 
+    //Child Element of the Transaction struct
     Transaction[] public transactions;
+
+    //Modifiers
 }
 
 
