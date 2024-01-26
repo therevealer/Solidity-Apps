@@ -253,6 +253,10 @@
 				],
 				"stateMutability": "view",
 				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
 			}
 		],
 		"devdoc": {
@@ -283,11 +287,11 @@
 	},
 	"sources": {
 		"wallet/multiSigwallet.sol": {
-			"keccak256": "0x5e3f668d223fe14ead5979668c5a931cf3e05a50259a3707012199cc32916ff4",
+			"keccak256": "0x3c789ec2113a9f077adc0fcf41d33ba9928f44a81882e27bc5b32d13c97e3591",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://cedda578a605d60c5ffc414a50282e47c5ddd5bedcd48a302dcd2aacf55510e0",
-				"dweb:/ipfs/QmNzoscRphozYhk2GhaaEtFuDUzftaCjii43NMRuhwZZTn"
+				"bzz-raw://d827bfad9568dce56918d36f56a45527e753c7b911bc2f13e7d1b6c25c56b526",
+				"dweb:/ipfs/QmZ8ULzLq13VQYWZqCS4ywbRLj2JNH7ZPE87iyonM2rWrJ"
 			]
 		}
 	},

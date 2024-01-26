@@ -68,6 +68,14 @@ contract MultiSigWallet {
         numConfirmations = _numConfirmations;
     }
 
+    //Fallback function
+    receive() external payable {
+        emit Deposit(msg.sender, msg.value, address(this).balance);
+    }
+
+    //Action functions
+    
+
   
 }
 
