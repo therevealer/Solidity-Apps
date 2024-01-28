@@ -14,12 +14,31 @@
 					},
 					{
 						"internalType": "uint256",
-						"name": "_numConfirmations",
+						"name": "_numConfirmationsRequired",
 						"type": "uint256"
 					}
 				],
 				"stateMutability": "nonpayable",
 				"type": "constructor"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "owner",
+						"type": "address"
+					},
+					{
+						"indexed": true,
+						"internalType": "uint256",
+						"name": "txIndex",
+						"type": "uint256"
+					}
+				],
+				"name": "ConfirmTransaction",
+				"type": "event"
 			},
 			{
 				"anonymous": false,
@@ -52,44 +71,6 @@
 					{
 						"indexed": true,
 						"internalType": "address",
-						"name": "owner",
-						"type": "address"
-					},
-					{
-						"indexed": true,
-						"internalType": "uint256",
-						"name": "txIndex",
-						"type": "uint256"
-					}
-				],
-				"name": "RevokeTransaction",
-				"type": "event"
-			},
-			{
-				"anonymous": false,
-				"inputs": [
-					{
-						"indexed": true,
-						"internalType": "address",
-						"name": "owner",
-						"type": "address"
-					},
-					{
-						"indexed": true,
-						"internalType": "uint256",
-						"name": "txIndex",
-						"type": "uint256"
-					}
-				],
-				"name": "confirmTransaction",
-				"type": "event"
-			},
-			{
-				"anonymous": false,
-				"inputs": [
-					{
-						"indexed": true,
-						"internalType": "address",
 						"name": "sender",
 						"type": "address"
 					},
@@ -100,7 +81,26 @@
 						"type": "uint256"
 					}
 				],
-				"name": "executeTransaction",
+				"name": "ExecuteTransaction",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "owner",
+						"type": "address"
+					},
+					{
+						"indexed": true,
+						"internalType": "uint256",
+						"name": "txIndex",
+						"type": "uint256"
+					}
+				],
+				"name": "RevokeConfirmation",
 				"type": "event"
 			},
 			{
@@ -137,8 +137,47 @@
 						"type": "bytes"
 					}
 				],
-				"name": "submitTransaction",
+				"name": "SubmitTransaction",
 				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_txIndex",
+						"type": "uint256"
+					}
+				],
+				"name": "confirmTransaction",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_txIndex",
+						"type": "uint256"
+					}
+				],
+				"name": "executeTransaction",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getOwners",
+				"outputs": [
+					{
+						"internalType": "address[]",
+						"name": "",
+						"type": "address[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
 			},
 			{
 				"inputs": [
@@ -185,7 +224,7 @@
 			},
 			{
 				"inputs": [],
-				"name": "numConfirmations",
+				"name": "numConfirmationsRequired",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -213,6 +252,42 @@
 					}
 				],
 				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_txIndex",
+						"type": "uint256"
+					}
+				],
+				"name": "revokeConfirmation",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_to",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_value",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bytes",
+						"name": "_data",
+						"type": "bytes"
+					}
+				],
+				"name": "submitTransaction",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
@@ -287,11 +362,11 @@
 	},
 	"sources": {
 		"wallet/multiSigwallet.sol": {
-			"keccak256": "0x3c789ec2113a9f077adc0fcf41d33ba9928f44a81882e27bc5b32d13c97e3591",
+			"keccak256": "0xca0d5887d8a1a7160b67043d23efb1201088b73c18c9598ab769c8e9b8ccb620",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://d827bfad9568dce56918d36f56a45527e753c7b911bc2f13e7d1b6c25c56b526",
-				"dweb:/ipfs/QmZ8ULzLq13VQYWZqCS4ywbRLj2JNH7ZPE87iyonM2rWrJ"
+				"bzz-raw://f8b329695358a77392bee8ceeab9b0916d5e155206573ccd266a650b787d17cf",
+				"dweb:/ipfs/QmVHkLJ8itU4Uoh1rGe3hcLCggxncLahqkiZ8A1RCKY8r3"
 			]
 		}
 	},
