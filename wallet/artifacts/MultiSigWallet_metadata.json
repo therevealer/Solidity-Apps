@@ -183,6 +183,58 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
+						"name": "_txIndex",
+						"type": "uint256"
+					}
+				],
+				"name": "getTransaction",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "to",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "value",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bytes",
+						"name": "data",
+						"type": "bytes"
+					},
+					{
+						"internalType": "bool",
+						"name": "executed",
+						"type": "bool"
+					},
+					{
+						"internalType": "uint256",
+						"name": "numConfirmations",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getTransactionCount",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
 						"name": "",
 						"type": "uint256"
 					},
@@ -362,11 +414,11 @@
 	},
 	"sources": {
 		"wallet/multiSigwallet.sol": {
-			"keccak256": "0xca0d5887d8a1a7160b67043d23efb1201088b73c18c9598ab769c8e9b8ccb620",
+			"keccak256": "0x90fb17b713db9eb6281db11a0c517e995b991872e7f88f342700b3c5a56c377b",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://f8b329695358a77392bee8ceeab9b0916d5e155206573ccd266a650b787d17cf",
-				"dweb:/ipfs/QmVHkLJ8itU4Uoh1rGe3hcLCggxncLahqkiZ8A1RCKY8r3"
+				"bzz-raw://8d7d67fbe5ac006792d40900d28b3289c5cfb1cb4bc1c1b3a92ed706039910e0",
+				"dweb:/ipfs/QmaZiZwc7iucKVeQqHvRLqAF47eCoK4Bx7C4nk68e8sq2h"
 			]
 		}
 	},
