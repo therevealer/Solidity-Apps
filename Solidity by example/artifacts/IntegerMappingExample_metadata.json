@@ -64,7 +64,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"examples/mappings.sol": "IntegerMappingExample"
+			"Solidity by example/mappings.sol": "IntegerMappingExample"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -78,12 +78,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"examples/mappings.sol": {
-			"keccak256": "0xca9561cc2fb22baea41bfef12f2944ef9ea083ef552de02e43c3171dae9ce656",
-			"license": "MIT",
+		"Solidity by example/mappings.sol": {
+			"keccak256": "0xa35000f69528a9437721639a6d7f33e0ff8f7e42aaa5c4e198dd45513fd60829",
+			"license": "UNLICENSED",
 			"urls": [
-				"bzz-raw://b3e28371282f98cae002e239423411a809a7f841319792573c2e354109ecda28",
-				"dweb:/ipfs/QmPxBqvASjYdX258D6QXLTc3ryh8Rs5XSYgxbz6rW4DuMV"
+				"bzz-raw://e3dcf5f41afd3a7ee8d7ae0c06e554c97cf6ebee0e4be480152480cbb55ed0be",
+				"dweb:/ipfs/QmUeM54d76KbUAF8pa7B93VaVebFkMTfjKSUaztqJQkCsR"
 			]
 		}
 	},

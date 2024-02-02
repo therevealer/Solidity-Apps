@@ -160,7 +160,6 @@ contract MultiSigWallet {
         );
     }
 
-  
 }
 
 

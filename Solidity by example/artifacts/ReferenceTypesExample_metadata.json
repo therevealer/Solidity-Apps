@@ -1,0 +1,108 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "newValue",
+						"type": "uint256"
+					}
+				],
+				"name": "modifyReferenceStruct",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "newValue",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bool",
+						"name": "newBool",
+						"type": "bool"
+					}
+				],
+				"name": "modifyValueStruct",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "referenceStructInstance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "intValue",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "valueStructInstance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "intValue",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bool",
+						"name": "boolValue",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Solidity by example/refrenceTypes.sol": "ReferenceTypesExample"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Solidity by example/refrenceTypes.sol": {
+			"keccak256": "0xe1205942051935bfea3b6ec7ddf65fdb4e12b41281685b29d471d9f4d655ca04",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://4eeee44d5e201f2082a37e144f13c606898961419a9b973909999029c2fb335c",
+				"dweb:/ipfs/QmaEaHmhdUvtPtxJvVAP47Nc27FuyFDgbgJKtN8R1gEFtV"
+			]
+		}
+	},
+	"version": 1
+}
