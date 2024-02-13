@@ -166,9 +166,11 @@ contract MultiSigWallet {
 
 
 
+// --------- Deployment and Interaction still pending!!!
 
-// The wallet owners can
 
-//submit a transaction
-//approve and revoke approval of pending transactions
-//anyone can execute a transaction after enough owners has approved it.
+// -------- The wallet owners can
+
+// submit a transaction
+// approve and revoke approval of pending transactions
+// anyone can execute a transaction after enough owners has approved it.
