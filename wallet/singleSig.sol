@@ -13,6 +13,8 @@ contract singleSigWallet is ReentrancyGuard{
     address public owner;
     uint public balance;
 
+    mapping (address => uint) public balances; // omo!
+
     modifier onlyOwner(){
         require(msg.sender == owner, "Not the owner");
         _;
@@ -24,6 +26,8 @@ contract singleSigWallet is ReentrancyGuard{
 
     function deposit(uint amount) public payable {
         balance = balance.add(msg.value);
+        balances[msg.sender] -= amount;
+
         emit Deposit(msg.sender, amount, balance);
     }
 

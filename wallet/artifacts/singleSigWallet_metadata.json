@@ -64,6 +64,25 @@
 			{
 				"inputs": [
 					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "balances",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
 						"internalType": "uint256",
 						"name": "amount",
 						"type": "uint256"
@@ -145,11 +164,11 @@
 			]
 		},
 		"wallet/singleSig.sol": {
-			"keccak256": "0x5f933704d003150b3948f9b20623f01a929757b57cae6def559f685ce1713532",
+			"keccak256": "0x5100aa829c5a6bc6e11cbe3068331f7111cca41380285cdfd4390f8be98154aa",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://5a5b7d852260a056685e6c8040b731f076e591b2de1a59576ca75e7ea59fad83",
-				"dweb:/ipfs/QmUqDfVUA3SXteTgvZyjb2rGWN6WpbzuSj6Mu113SjN7q6"
+				"bzz-raw://e32b851a1f4a7fb52aa741e8329a45bc5a74412e04d36c6c6bf8caed1537436b",
+				"dweb:/ipfs/QmVpk6oTqZAjL9tjcJF2vC5pT5jJtnME7Tu77qmydu7Qkw"
 			]
 		}
 	},
