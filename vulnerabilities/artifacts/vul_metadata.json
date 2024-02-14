@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"vulnerabilities/reentrantAttacker.sol": "vul"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"vulnerabilities/reentrantAttacker.sol": {
+			"keccak256": "0xe8278058b0c5ac2120a8bb3688b7062326ea512b56b82234ff5c11f946492fbe",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://5d51a0b0c473beb7df154c2f016469ec03cf6f0a06a687c661ff83b5fa7d9d30",
+				"dweb:/ipfs/QmS7YchgP7eHGwPE3VRpmyTUt3w9cBNXEap51Rah2Jfagx"
+			]
+		}
+	},
+	"version": 1
+}

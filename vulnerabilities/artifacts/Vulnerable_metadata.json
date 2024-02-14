@@ -1,0 +1,78 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "balance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_amount",
+						"type": "uint256"
+					}
+				],
+				"name": "withdraw",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"vulnerabilities/reentrancy.sol": "Vulnerable"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"vulnerabilities/reentrancy.sol": {
+			"keccak256": "0xd1a968112a41a8332f0aae031c0945e1435dc7f2a5f0c46138a245bc291a9fb8",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://f33cd5dd91c3a02c28022271d0b67d5ecbd59206620b21da7e79ce5f82949ca1",
+				"dweb:/ipfs/Qmf892kQdVqqfDJLr9m5jp17ZgneargpUdz7YnHxrL1n1C"
+			]
+		}
+	},
+	"version": 1
+}

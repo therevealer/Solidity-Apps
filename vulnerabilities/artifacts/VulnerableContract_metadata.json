@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_amount",
+						"type": "uint256"
+					}
+				],
+				"name": "withdraw",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"vulnerabilities/reentrantAttacker.sol": "VulnerableContract"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"vulnerabilities/reentrantAttacker.sol": {
+			"keccak256": "0x26679e0f042c0ce35b9e649b8491929cea01d1fa4c089d6f568f219dcd3c0c24",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://94a753254cdf766a3756f1aa9eaa4edc184921711bdfeeb4dfb8e77be62ef531",
+				"dweb:/ipfs/QmNqrJGxDDNzCjGB3fbmBXDSjkLCm2E1rCuEki4Au2cmw4"
+			]
+		}
+	},
+	"version": 1
+}
