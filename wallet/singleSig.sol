@@ -1,7 +1,12 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.20;
 
-contract singleSigWallet {
+import "@openzeppelin/contracts/utils/math/SafeMath.sol";
+import "@openzeppelin/contracts/security/ReentrancyGuard.sol";
+
+contract singleSigWallet is ReentrancyGuard{
+    using SafeMath for uint256;
+
     event Deposit(address indexed sender, uint amount, uint balance);
     event Withdraw(uint amount);
 
@@ -18,13 +23,13 @@ contract singleSigWallet {
     }
 
     function deposit(uint amount) public payable {
-        balance += msg.value;
+        balance = balance.add(msg.value);
         emit Deposit(msg.sender, amount, balance);
     }
 
-    function withdraw(uint amount) public onlyOwner {
+    function withdraw(uint amount) public onlyOwner nonReentrant {
         require(amount <= balance, "Insufficient balance");
-        balance -= amount;
+        balance = balance.sub(amount);
         payable(owner).transfer(amount);
 
         emit Withdraw(amount);
