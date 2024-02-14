@@ -129,11 +129,11 @@
 	},
 	"sources": {
 		"wallet/singleSig.sol": {
-			"keccak256": "0x852930b44cec4e978f70ad2f674dd9e92fb3e576f9cab2910e8a7b1a6adf93bf",
+			"keccak256": "0xbca2546b928484bd6aae673ba4fcc557902a32224c091d7c9a5d093cfc73de8e",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://e13055f577f9199bb98cd82044552209fd72498c53b60221321005a85d177288",
-				"dweb:/ipfs/QmWEQzeLDhaRAMSqnqDgVoFHhWzZT4cCnYAovKpX74xK3b"
+				"bzz-raw://811c7691a0b247db84752112f1a300fe2a84973f912653aa5ddc70f5e52537d7",
+				"dweb:/ipfs/QmPTBBu1AJizgPmWvFmn18y2HojfmumittYGdYog4X1A7k"
 			]
 		}
 	},

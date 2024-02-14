@@ -19,7 +19,6 @@ contract singleSigWallet {
 
     function deposit(uint amount) public payable {
         balance += msg.value;
-
         emit Deposit(msg.sender, amount, balance);
     }
 
