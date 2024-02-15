@@ -162,11 +162,11 @@
 			]
 		},
 		"wallet/singleSig.sol": {
-			"keccak256": "0x760010b46d27faf93273b701aa9c4a6f94fb1e4f5a6dc1c4fcad6c2832ccb4d7",
+			"keccak256": "0x123bd3eb5b004d86c548b8da422ba8167e82dedb0c8f93c18895522810c17c17",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://a4e09dbf9ab731b8a2ea14e2087a33a11bd70fe519789b09814b13799a8bd90a",
-				"dweb:/ipfs/QmXKREULtkSpGSMAqF1Ff9JgPVhzUEktWtrPhajJx4tF9p"
+				"bzz-raw://8783ca043ee7276c4f3bb96c32e92dd86b50d9011d63fdedc362b4f33bb3169c",
+				"dweb:/ipfs/QmSBEjSM4MKTFCQxdqxf9yk3Q4tqmPtAJgySzzpZCDRPo8"
 			]
 		}
 	},

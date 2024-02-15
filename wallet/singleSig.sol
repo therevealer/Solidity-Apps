@@ -40,3 +40,5 @@ contract singleSigWallet is ReentrancyGuard{
         emit Withdraw(recipient, amount, balance);
     }
 }
+
+// Done
