@@ -39,9 +39,21 @@
 				"anonymous": false,
 				"inputs": [
 					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "recipient",
+						"type": "address"
+					},
+					{
 						"indexed": false,
 						"internalType": "uint256",
 						"name": "amount",
+						"type": "uint256"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "balance",
 						"type": "uint256"
 					}
 				],
@@ -51,25 +63,6 @@
 			{
 				"inputs": [],
 				"name": "balance",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "address",
-						"name": "",
-						"type": "address"
-					}
-				],
-				"name": "balances",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -108,6 +101,11 @@
 			},
 			{
 				"inputs": [
+					{
+						"internalType": "address",
+						"name": "recipient",
+						"type": "address"
+					},
 					{
 						"internalType": "uint256",
 						"name": "amount",
@@ -164,11 +162,11 @@
 			]
 		},
 		"wallet/singleSig.sol": {
-			"keccak256": "0x5100aa829c5a6bc6e11cbe3068331f7111cca41380285cdfd4390f8be98154aa",
+			"keccak256": "0x760010b46d27faf93273b701aa9c4a6f94fb1e4f5a6dc1c4fcad6c2832ccb4d7",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://e32b851a1f4a7fb52aa741e8329a45bc5a74412e04d36c6c6bf8caed1537436b",
-				"dweb:/ipfs/QmVpk6oTqZAjL9tjcJF2vC5pT5jJtnME7Tu77qmydu7Qkw"
+				"bzz-raw://a4e09dbf9ab731b8a2ea14e2087a33a11bd70fe519789b09814b13799a8bd90a",
+				"dweb:/ipfs/QmXKREULtkSpGSMAqF1Ff9JgPVhzUEktWtrPhajJx4tF9p"
 			]
 		}
 	},

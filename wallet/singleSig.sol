@@ -8,12 +8,10 @@ contract singleSigWallet is ReentrancyGuard{
     using SafeMath for uint256;
 
     event Deposit(address indexed sender, uint amount, uint balance);
-    event Withdraw(uint amount);
+    event Withdraw(address indexed recipient, uint amount, uint balance);
 
     address public owner;
     uint public balance;
-
-    mapping (address => uint) public balances; // omo!
 
     modifier onlyOwner(){
         require(msg.sender == owner, "Not the owner");
@@ -24,18 +22,21 @@ contract singleSigWallet is ReentrancyGuard{
         owner = msg.sender;
     }
 
-    function deposit(uint amount) public payable {
-        balance = balance.add(msg.value);
-        balances[msg.sender] -= amount;
+    function deposit(uint amount) external payable {
+        require(amount > 0, "Deposit amount must be greater than 0");
 
+        balance = balance.add(amount);
         emit Deposit(msg.sender, amount, balance);
     }
 
-    function withdraw(uint amount) public onlyOwner nonReentrant {
-        require(amount <= balance, "Insufficient balance");
-        balance = balance.sub(amount);
-        payable(owner).transfer(amount);
 
-        emit Withdraw(amount);
+    function withdraw(address recipient, uint amount) public onlyOwner nonReentrant {
+        require(amount <= balance, "Insufficient balance");
+        require(recipient != address(0), "Invalid address");
+
+        balance = balance.sub(amount);
+        payable(recipient).transfer(amount);
+
+        emit Withdraw(recipient, amount, balance);
     }
 }
