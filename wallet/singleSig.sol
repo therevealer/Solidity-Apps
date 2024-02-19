@@ -22,6 +22,8 @@ contract singleSigWallet is ReentrancyGuard{
         owner = msg.sender;
     }
 
+    receive() external payable { }
+
     function deposit(uint amount) external payable {
         require(amount > 0, "Deposit amount must be greater than 0");
 

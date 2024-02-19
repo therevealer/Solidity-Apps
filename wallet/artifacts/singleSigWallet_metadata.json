@@ -116,6 +116,10 @@
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
 			}
 		],
 		"devdoc": {
@@ -162,11 +166,11 @@
 			]
 		},
 		"wallet/singleSig.sol": {
-			"keccak256": "0x123bd3eb5b004d86c548b8da422ba8167e82dedb0c8f93c18895522810c17c17",
+			"keccak256": "0x19416bccd4c93b956e3a849f5ac9615c33b0d4ac9dc5e15fdb664acfc9238e8b",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://8783ca043ee7276c4f3bb96c32e92dd86b50d9011d63fdedc362b4f33bb3169c",
-				"dweb:/ipfs/QmSBEjSM4MKTFCQxdqxf9yk3Q4tqmPtAJgySzzpZCDRPo8"
+				"bzz-raw://9511ad46e5273e46e3ee8eee108b0c76d22dec3e64a12fbbff268f7b419744c6",
+				"dweb:/ipfs/QmRgShd2ovKZi75Bth8jAdJS1zzGedEiCi6D3gu9CfZaLT"
 			]
 		}
 	},
