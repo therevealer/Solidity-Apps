@@ -414,11 +414,11 @@
 	},
 	"sources": {
 		"wallet/multiSigwallet.sol": {
-			"keccak256": "0x10ec941308469d68555852f65ba52e281a9c6eed4de812563fe121a4120dfe26",
+			"keccak256": "0x4eb70795cf34de68b158e0872e3d93894bdc4a00b5b1f99419b77195f8229a63",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://99d3f25064c95fc2358715da6fc8344e1f926d88ade40b227efae96fc90dc58b",
-				"dweb:/ipfs/QmYmotoG5kRVHUpMdRQMjXz36fPdD82PxsC24L7QcgcYvD"
+				"bzz-raw://c91b9d75c4001d246fe9828d798a68d19b0d4ddb41fd5bcbea760e67cf3adb8c",
+				"dweb:/ipfs/QmPrZYKuiUgmDvm9LUwdNrht1xMVoY9DQUy4Ykizao65vM"
 			]
 		}
 	},

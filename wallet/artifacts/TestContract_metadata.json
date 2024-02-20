@@ -1,0 +1,85 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "j",
+						"type": "uint256"
+					}
+				],
+				"name": "callMe",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getData",
+				"outputs": [
+					{
+						"internalType": "bytes",
+						"name": "",
+						"type": "bytes"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "i",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"wallet/test.sol": "TestContract"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"wallet/test.sol": {
+			"keccak256": "0x0c71383d5b018da0b3ee37d29ab66931b14cecbab66361ac6064e17c613e536e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://4a529fb76d4a78d1908e8e6854f735ddffafa46a29e19a221b90e33f63bc2fa5",
+				"dweb:/ipfs/QmYqJHWAvwDejzRm4S4P8AHJeYhkufLvCUR6zheSfSm14J"
+			]
+		}
+	},
+	"version": 1
+}
