@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.20+commit.a1b79de6"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "encode",
+				"outputs": [
+					{
+						"internalType": "bytes",
+						"name": "",
+						"type": "bytes"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Syntax Examples/encodeSomethig.sol": "EncodeSomething"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Syntax Examples/encodeSomethig.sol": {
+			"keccak256": "0x007268b6f5b71dd0684174dae2a9db7925601bdff1140fb35dabc517f76a29fa",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://07a41272951cfff1401dac8035afc9925c990d2a264665c828d372c9cd90dd2f",
+				"dweb:/ipfs/QmSzj7uW7TSzTBt1S3geY3kSKcua8R1F54Mo3qkiaX1ZqU"
+			]
+		}
+	},
+	"version": 1
+}
