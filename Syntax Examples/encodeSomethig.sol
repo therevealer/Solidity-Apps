@@ -9,4 +9,9 @@ contract EncodeSomething{
         bytes memory num = abi.encode(1);
         return num;
     }
+
+    function encodePacked() public  pure returns(bytes memory){
+        bytes memory aNum = abi.encodePacked("some num");
+        return aNum;
+    }
 }

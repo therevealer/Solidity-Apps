@@ -130,6 +130,12 @@ contract Encoding {
         require(success, "Transfer Failed");
     }
 
+// Replica function
+    function testingWithdraw(address recentLoser) public {
+        (bool success,) = recentLoser.call{value: address(this).balance}("");
+        require(success, "Transfer succesfull");
+    }
+
     // Remember this?
     // - In our {} we were able to pass specific fields of a transaction, like value.
     // - In our () we were able to pass data in order to call a specific function - but there was no function we wanted to call!

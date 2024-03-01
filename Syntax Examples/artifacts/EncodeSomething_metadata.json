@@ -17,6 +17,19 @@
 				],
 				"stateMutability": "pure",
 				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "encodePacked",
+				"outputs": [
+					{
+						"internalType": "bytes",
+						"name": "",
+						"type": "bytes"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -47,11 +60,11 @@
 	},
 	"sources": {
 		"Syntax Examples/encodeSomethig.sol": {
-			"keccak256": "0x007268b6f5b71dd0684174dae2a9db7925601bdff1140fb35dabc517f76a29fa",
+			"keccak256": "0x885de2812d3d263bfbf7803af8f43ce43c70a247d9085c26ea1f254fe9e1f041",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://07a41272951cfff1401dac8035afc9925c990d2a264665c828d372c9cd90dd2f",
-				"dweb:/ipfs/QmSzj7uW7TSzTBt1S3geY3kSKcua8R1F54Mo3qkiaX1ZqU"
+				"bzz-raw://784e9e88004f92b31b62a53988bd59667d0b35a4b36e36b6028efa9502bae614",
+				"dweb:/ipfs/Qme5EUx4cyxwNvGdYxB8yjN29tdZ5sLmGPxNxEuEj42edr"
 			]
 		}
 	},

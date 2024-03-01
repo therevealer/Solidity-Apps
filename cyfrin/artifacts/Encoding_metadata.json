@@ -157,6 +157,19 @@
 				"inputs": [
 					{
 						"internalType": "address",
+						"name": "recentLoser",
+						"type": "address"
+					}
+				],
+				"name": "testingWithdraw",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
 						"name": "recentWinner",
 						"type": "address"
 					}
@@ -195,11 +208,11 @@
 	},
 	"sources": {
 		"cyfrin/encoding.sol": {
-			"keccak256": "0x4cdfdef3adeb6f7a494e1a05b7056be5464a8cc80e538ae6c39f2c24a1a9d2fa",
+			"keccak256": "0x77cef71ffd7d98595eb24486882bc76fbd3265d5151721a10a3e4739a264ddae",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://eaa3f93e624b83e4ceca3e332495235af7e67c2f1ad10549862cae3b9a29a909",
-				"dweb:/ipfs/QmRctmXQhKZ2uHc4VT8g76bZ73yt8YhNQpSHQ6M6XQbrcg"
+				"bzz-raw://8f9f432ea15fa5960f5679078d5cc411765df6e581db6e48eba3bbb310fe8c31",
+				"dweb:/ipfs/QmYKkP5rv66GWfeDoEEfajjuE4bMnSRcEY7kKKBDkNLdsr"
 			]
 		}
 	},
