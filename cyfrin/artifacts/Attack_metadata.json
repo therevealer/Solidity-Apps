@@ -8,15 +8,13 @@
 			{
 				"inputs": [
 					{
-						"internalType": "uint256",
-						"name": "_amount",
-						"type": "uint256"
+						"internalType": "contract EtherGame",
+						"name": "_etherGame",
+						"type": "address"
 					}
 				],
-				"name": "withdraw",
-				"outputs": [],
 				"stateMutability": "nonpayable",
-				"type": "function"
+				"type": "constructor"
 			}
 		],
 		"devdoc": {
@@ -32,7 +30,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"vulnerabilities/reentrantAttacker.sol": "VulnerableContract"
+			"cyfrin/self-destruct.sol": "Attack"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -46,12 +44,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"vulnerabilities/reentrantAttacker.sol": {
-			"keccak256": "0x26679e0f042c0ce35b9e649b8491929cea01d1fa4c089d6f568f219dcd3c0c24",
+		"cyfrin/self-destruct.sol": {
+			"keccak256": "0xe0d0b9599f314fb00f08ceba71d05105efcbf5bddff777a7ec453a88afd5b14c",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://94a753254cdf766a3756f1aa9eaa4edc184921711bdfeeb4dfb8e77be62ef531",
-				"dweb:/ipfs/QmNqrJGxDDNzCjGB3fbmBXDSjkLCm2E1rCuEki4Au2cmw4"
+				"bzz-raw://c3b1efb1cbd7579d84670453754eca285a294b0a614e7432709dc27bf5c37cc5",
+				"dweb:/ipfs/QmbSu6TBL2EZHfYzi3F7F2mpviYFrBgVKH1Xiak2MFn9wT"
 			]
 		}
 	},
